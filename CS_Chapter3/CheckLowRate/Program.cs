@@ -9,6 +9,15 @@ namespace CheckLowRate
     {
         static void Main(string[] args)
         {
-        }
+            String rate = Console.ReadLine();
+            double rte = Convert.ToDouble(rate);
+          
+                if (rte < 5.65)
+                {
+                    Console.WriteLine("ERROR");
+                }
+
+                else Console.WriteLine("OK");
+            }  
     }
 }

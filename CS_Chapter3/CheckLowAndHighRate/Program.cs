@@ -9,6 +9,16 @@ namespace CheckLowAndHighRate
     {
         static void Main(string[] args)
         {
+            String rte = Console.ReadLine();
+            double rate = Convert.ToDouble(rte);
+
+            if (rate < 5.65 || rate > 49.99)
+            {
+
+                Console.WriteLine("ERROR");
+            }
+
+            else Console.WriteLine("OK");
         }
     }
 }

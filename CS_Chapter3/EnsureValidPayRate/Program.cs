@@ -9,6 +9,10 @@ namespace EnsureValidPayRate
     {
         static void Main(string[] args)
         {
+            String rte = Console.ReadLine();
+            double rate = Convert.ToDouble(rte);
+
+            if 
         }
     }
 }
